@@ -44,7 +44,7 @@ header {
 }
 
 .dark-mode header {
-    background-color: #1f1f1f; 
+    background-color: #000;
 }
 
 nav {
@@ -139,6 +139,24 @@ main {
 
 .dark-mode .sobre-container ul {
     list-style: circle; 
+}
+
+.contact-logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 1rem; 
+    align-items: center;
+}
+
+.contact-logos img {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contact-logos img:hover {
+    transform: scale(1.1); 
 }
 
 .projetos {
