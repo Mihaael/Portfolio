@@ -35,8 +35,8 @@ O portfólio está dividido em três páginas principais:
     - **Calculator**: Calculadora funcional desenvolvida com JavaScript.
   - Links nos cartões para os repositórios no GitHub.
   - Design com hover interativo.
-- **Destaque de Projeto Único**:
-  - Um espaço reservado para futuros projetos importantes.
+- **Espaço único para Projeto 1**:
+  - Um espaço reservado para projeto importante da cesar school.
 
 ---
 
