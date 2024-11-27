@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Sobre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projeto.html">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sobre-container">
+      <h1>Sobre Mim</h1>
+      <p>Sou estudante de Ciência da Computação na Cesar School, com foco inicial no front-end, mas já animado para aprender sobre back-end. Entusiasta em programação de jogos, provavelmente pode se tornar minha grande paixão no futuro.</p>
+
+      <h2>Interesses Profissionais</h2>
+      <ul class="sobre-list">
+        <li>Desenvolvimento Web Front-End e Back-End</li>
+        <li>Desenvolvimento de Jogos</li>
+      </ul>
+
+      <h2>O que me inspira?</h2>
+      <p>Sou inspirado pela constante evolução da tecnologia e por pessoas que usam a criatividade para impactar positivamente a sociedade.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Hugo Diêgo Da Silva Arruda</p>
+  </footer>
+
+  <script>
+    if (localStorage.getItem('dark-mode') === 'enabled') {
+      document.body.classList.add('dark-mode');
+    }
+  
+    const toggleButton = document.createElement('button');
+    toggleButton.textContent = 'Alternar Modo Escuro';
+    toggleButton.className = 'toggle-dark-mode';
+    document.body.prepend(toggleButton);
+  
+    const toggleDarkMode = () => {
+      document.body.classList.toggle('dark-mode');
+      if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('dark-mode', 'enabled');
+      } else {
+        localStorage.setItem('dark-mode', 'disabled');
+      }
+    };
+    toggleButton.addEventListener('click', toggleDarkMode);
+  </script>
+</body>
+</html>
