@@ -27,6 +27,7 @@ O portfólio está dividido em três páginas principais:
 - **Box Estilizado**:
   - Informações apresentadas dentro de uma caixa com design responsivo.
 - Lista de interesses profissionais, como desenvolvimento web e jogos, apresentados de forma organizada.
+- Links para minhas redes de contato (LinkedIn e Gmail), com ícones interativos.
 
 #### **Projetos**
 - **Grid de Projetos**:
@@ -35,8 +36,10 @@ O portfólio está dividido em três páginas principais:
     - **Calculator**: Calculadora funcional desenvolvida com JavaScript.
   - Links nos cartões para os repositórios no GitHub.
   - Design com hover interativo.
-- **Destaque de Projeto Único**:
-  - Um espaço reservado para futuros projetos importantes.
+- **Espaço único para Projeto 1**:
+  - **Viva o Antigo**:
+    - Um projeto especial que utiliza Arduino e uma câmera fotográfica para promover uma experiência no Recife Antigo.
+    - Descrição detalhada do objetivo e funcionamento.
 
 ---
 
