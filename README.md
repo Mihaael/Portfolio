@@ -36,7 +36,7 @@ O portfólio está dividido em três páginas principais:
   - Links nos cartões para os repositórios no GitHub.
   - Design com hover interativo.
 - **Espaço único para Projeto 1**:
-  - Um espaço reservado para projeto importante da cesar school.
+  - Um espaço reservado para projetos importantes da cesar school.
 
 ---
 
