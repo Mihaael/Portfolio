@@ -44,7 +44,7 @@ O portfólio está dividido em três páginas principais:
 
 - **Modo Escuro**:
   - Implementação de alternância entre tema claro e escuro utilizando JavaScript.
-  - Preferência de tema salva no localStorage.
+  - Preferência de tema salva no `localStorage`.
 - **Hover Interativo**:
   - Links e cartões de projeto com efeitos ao passar o mouse.
 
@@ -84,7 +84,24 @@ O portfólio está dividido em três páginas principais:
 
 ---
 
-## Acesso ao portfolio
+## Atualizações Recentes
+
+1. **Correção no Botão de Alternância de Tema**:
+   - O botão "Modo Escuro" agora funciona corretamente.
+   - O script foi ajustado para garantir que o estado do tema seja sincronizado entre as páginas.
+
+2. **Remoção de Scripts Inline**:
+   - Os scripts relacionados ao alternador de tema foram movidos para o arquivo `main.js` para melhorar a organização.
+
+3. **Links entre Páginas**:
+   - Garantia de navegação correta entre "Início", "Sobre" e "Projetos".
+
+4. **Estilização Ajustada**:
+   - Ajuste nas cores para melhor contraste no modo escuro.
+
+---
+
+## Acesso ao Portfólio
 [Clique Aqui](https://portfolio-hugo-diego-da-silva-arruda.vercel.app/)
 
 ---

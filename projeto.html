@@ -15,6 +15,8 @@
         <li><a href="sobre.html">Sobre</a></li>
         <li><a href="projeto.html">Projetos</a></li>
       </ul>
+      <span class="nav-divider">|</span>
+      <button id="toggle-theme" class="nav-toggle">Modo Escuro</button>
     </nav>
   </header>
 
@@ -35,8 +37,8 @@
       <div class="projeto-unico">
         <div class="projeto-card">
           <h2>Viva o Antigo</h2>
-          <p>É um projeto que tem como objetivo trazer o sentimento de pertencimento para as pessoas no recife antigo, o projeto envolve uma camera fixada numa caixa, onde o botão de tirar foto é acionado através de uma tela, 
-            se a pessoa desejar tirar uma foto ira ser iniciado uma contagem para ela se posicionar, no fim da contagem o arduino ira emitir uma sinalização para o servo motor que ira realizar o clique para foto.</p>
+          <p>É um projeto que tem como objetivo trazer o sentimento de pertencimento para as pessoas no recife antigo, o projeto envolve uma câmera fixada numa caixa, onde o botão de tirar foto é acionado através de uma tela. 
+            Se a pessoa desejar tirar uma foto, será iniciada uma contagem para ela se posicionar. No fim da contagem, o Arduino emitirá uma sinalização para o servo motor que realizará o clique para foto.</p>
         </div>
       </div>
     </section>
@@ -46,25 +48,6 @@
     <p>&copy; 2024 Hugo Diêgo Da Silva Arruda</p>
   </footer>
 
-  <script>
-    if (localStorage.getItem('dark-mode') === 'enabled') {
-      document.body.classList.add('dark-mode');
-    }
-  
-    const toggleButton = document.createElement('button');
-    toggleButton.textContent = 'Alternar Modo Escuro';
-    toggleButton.className = 'toggle-dark-mode';
-    document.body.prepend(toggleButton);
-  
-    const toggleDarkMode = () => {
-      document.body.classList.toggle('dark-mode');
-      if (document.body.classList.contains('dark-mode')) {
-        localStorage.setItem('dark-mode', 'enabled');
-      } else {
-        localStorage.setItem('dark-mode', 'disabled');
-      }
-    };
-    toggleButton.addEventListener('click', toggleDarkMode);
-  </script>
+  <script src="./main.js"></script>
 </body>
 </html>
